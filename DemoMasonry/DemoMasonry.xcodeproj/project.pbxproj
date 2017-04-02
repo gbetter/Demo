@@ -24,6 +24,8 @@
 		5A419BD81E909BA8009DDCB4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A419BCB1E909BA8009DDCB4 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		5A419BD91E909BA8009DDCB4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A419BCD1E909BA8009DDCB4 /* View+MASAdditions.m */; };
 		5A419BDA1E909BA8009DDCB4 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A419BD01E909BA8009DDCB4 /* ViewController+MASAdditions.m */; };
+		5A419BDF1E910320009DDCB4 /* DMMutiLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A419BDE1E910320009DDCB4 /* DMMutiLabelView.m */; };
+		5A419BE21E911210009DDCB4 /* DMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A419BE11E911210009DDCB4 /* DMScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,10 @@
 		5A419BCF1E909BA8009DDCB4 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		5A419BD01E909BA8009DDCB4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		5A419BDC1E90E65F009DDCB4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5A419BDD1E910320009DDCB4 /* DMMutiLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMMutiLabelView.h; sourceTree = "<group>"; };
+		5A419BDE1E910320009DDCB4 /* DMMutiLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMMutiLabelView.m; sourceTree = "<group>"; };
+		5A419BE01E911210009DDCB4 /* DMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMScrollView.h; sourceTree = "<group>"; };
+		5A419BE11E911210009DDCB4 /* DMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,10 @@
 				5A419B831E908C15009DDCB4 /* AppDelegate.m */,
 				5A419BB21E909340009DDCB4 /* DMRootViewController.h */,
 				5A419BB31E909340009DDCB4 /* DMRootViewController.m */,
+				5A419BDD1E910320009DDCB4 /* DMMutiLabelView.h */,
+				5A419BDE1E910320009DDCB4 /* DMMutiLabelView.m */,
+				5A419BE01E911210009DDCB4 /* DMScrollView.h */,
+				5A419BE11E911210009DDCB4 /* DMScrollView.m */,
 				5A419B8B1E908C15009DDCB4 /* Assets.xcassets */,
 				5A419B8D1E908C15009DDCB4 /* LaunchScreen.storyboard */,
 				5A419B901E908C15009DDCB4 /* Info.plist */,
@@ -347,10 +357,12 @@
 				5A419BD11E909BA8009DDCB4 /* MASCompositeConstraint.m in Sources */,
 				5A419BD71E909BA8009DDCB4 /* NSArray+MASAdditions.m in Sources */,
 				5A419BB41E909340009DDCB4 /* DMRootViewController.m in Sources */,
+				5A419BDF1E910320009DDCB4 /* DMMutiLabelView.m in Sources */,
 				5A419B841E908C15009DDCB4 /* AppDelegate.m in Sources */,
 				5A419BD41E909BA8009DDCB4 /* MASLayoutConstraint.m in Sources */,
 				5A419B811E908C15009DDCB4 /* main.m in Sources */,
 				5A419BDA1E909BA8009DDCB4 /* ViewController+MASAdditions.m in Sources */,
+				5A419BE21E911210009DDCB4 /* DMScrollView.m in Sources */,
 				5A419BD91E909BA8009DDCB4 /* View+MASAdditions.m in Sources */,
 				5A419BD51E909BA8009DDCB4 /* MASViewAttribute.m in Sources */,
 				5A419BD21E909BA8009DDCB4 /* MASConstraint.m in Sources */,
