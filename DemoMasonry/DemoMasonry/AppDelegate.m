@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "DMRootViewController.h"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong)DMRootViewController *rootViewController;
 
 @end
 
@@ -16,7 +19,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    DMRootViewController *rootViewController = [[DMRootViewController alloc] init];
+    UINavigationController *rootNavigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.window.rootViewController = rootNavigationController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

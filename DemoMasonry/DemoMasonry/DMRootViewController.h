@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DMRootViewController.h
 //  DemoMasonry
 //
 //  Created by ZZY on 2017/4/2.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface DMRootViewController : UIViewController
 
 @end
-
