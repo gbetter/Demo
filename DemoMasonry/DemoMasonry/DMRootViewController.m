@@ -31,7 +31,15 @@
     self.view = [DMScrollView new];
     
 
+    NSMutableArray *array = [NSMutableArray arrayWithCapacity:0];
+    NSMutableDictionary *dictionary = [NSMutableDictionary dictionary];
     
+    __block NSMutableString *userName;
+    void (^block)(int) = ^(int a) {
+        [array addObject:@1];
+        [dictionary setObject:@2 forKey:@"key"];
+        userName = [NSMutableString stringWithFormat:@"888"];
+    };
     
     //多行label的约束问题
     {/*

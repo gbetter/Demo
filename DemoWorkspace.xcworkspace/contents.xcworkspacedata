@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:EFODemo/EFODemo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:DemoMasonry/DemoMasonry.xcodeproj">
    </FileRef>
 </Workspace>
